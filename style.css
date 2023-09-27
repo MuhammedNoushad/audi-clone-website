@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 18px 82px 142px;
+    height: auto;
+
+}
+
+header img {
+    height: 60px;
+    cursor: pointer;
+}
+
+header i {
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+    
+}
+
+.nav_link {
+
+    list-style: none;
+}
+
+.nav_link li {
+
+    display: inline-block;
+    padding: 0px 10px;
+
+}
+
+.nav_link li a {
+    color: hsl(0, 0%, 35%);
+
+}
+
+.nav_link li a:hover {
+    color: hsl(0, 2%, 11%);
+    background-color: #e7e1e1;
+
+}
+
+header i {
+    margin-left: auto;
+}
+
+main img {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.header {
+    margin-top: -10px;
+    margin-bottom: -144px;
+}
+
+.first_image {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 8%;
+    left: 8%;
+}
+
+.text p,
+h2 {
+    letter-spacing: 1px;
+    color: hsl(0, 0%, 2%);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.text .button1 {
+    margin-top: 26px;
+    height: 50px;
+    width: 212px;
+    border-radius: 10px;
+    border: none;
+}
+
+.text .button2 {
+    margin-top: 26px;
+    height: 50px;
+    width: 212px;
+    border-radius: 10px;
+    background: transparent;
+    border-inline-color: black;
+}
+
+.text .button1:hover {
+    background: hsla(200, 97%, 49%, 0.766);
+}
+
+.text .button2:hover {
+    background: hsla(200, 97%, 49%, 0.766);
+}
+
+main h4 {
+    padding: 16px 36px;
+}
+
+.model {
+    display: flex;
+    justify-content: space-between;
+}
+
+.model img {
+    flex: 20px;
+    width: 200px;
+}
+
+.model img:hover {
+    transform: scale(1.2);
+    transition: transform .5s ease;
+}
+
+.captions {
+    display: block;
+    padding: 0px 30% 0px;
+
+}
+
+.model_1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.model_1 img {
+    flex: 20px;
+    width: 200px;
+}
+
+.model_1 img:hover {
+    transform: scale(1.2);
+    transition: transform .5s ease;
+}
+
+.mid_image img {
+    width: 50%;
+    float: left;
+    margin-right: 5%;
+}
+
+.mid {
+    padding: 10% 14%;
+}
+
+.mid_text {
+    padding: 12% 17%;
+}
+
+.text_image button {
+    margin-block: 20px;
+    padding: 2% 14%;
+}
+
+.text_head .button3 {
+    height: 50px;
+    width: 212px;
+    border-radius: 10px;
+    background: transparent;
+    border-inline-color: black;
+
+}
+
+.text1 {
+    padding: 50px 50px 50px 50px;
+    background-color:  hsla(202, 20%, 57%, 0.766);
+    position: absolute;
+    top: 34%;
+    left: 8%;
+    width: 600px;
+}
+
+.text1 p {
+
+    word-spacing: 4px;
+    letter-spacing: 1.5px;
+    color: hsl(0, 0%, 2%);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.text1 .button1 {
+    background-color: #fff;
+    margin-top: 26px;
+    height: 50px;
+    width: 212px;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.text1 .button2 {
+    margin-top: 26px;
+    height: 50px;
+    width: 212px;
+    border-radius: 10px;
+    background: transparent;
+    border-inline-color: black;
+}
+
+
+.text1 .button3 {
+    background-color: #fff;
+    margin-top: 26px;
+    height: 50px;
+    width: 212px;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.text1 .button4 {
+    margin-top: 26px;
+    height: 50px;
+    width: 212px;
+    border-radius: 10px;
+    background: transparent;
+    border-inline-color: black;
+}
+
+.text1 .button3:hover {
+    background: hsl(202, 20%, 57%);
+}
+
+.text1 .button4:hover {
+    background: hsl(202, 20%, 57%);
+}
+
+.dealer_location_header {
+    margin-top: -14px;
+    display: flex;
+
+}
+
+.dealer_location img {
+    width: 100%;
+}
+
+.dealer_location {
+    margin-bottom: 14px;
+    padding: 10%;
+    background-color: black;
+}
+
+.dealer_location button {
+    color: black;
+    margin-top: 26px;
+    height: 50px;
+    width: 212px;
+    border-radius: 10px;
+    background: white;
+
+
+}
+
+.dealer_location h1 {
+    color: #fff;
+    font-size: 38px;
+
+}
+
+.dealer_location button:hover {
+    background-color: hsl(0, 1%, 33%);
+}
+
+.bot1 {
+    display: flex;
+    align-items: flex-end;
+    background-color: black;
+}
+
+.bot1_items {
+    padding: 30px 30px 30px;
+}
+
+.bot1_items h2 {
+    color: #fff;
+}
+
+.bot1_items button {
+    border-inline: 5px thin #fff;
+    color: #fff;
+    background-color: transparent;
+    margin-top: 26px;
+    height: 50px;
+    width: 212px;
+    border-radius: 10px;
+   
+}
+.bot1_items button:hover{
+    background-color: hsl(0, 1%, 26%);
+}
+.bot_mid{
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+}
+
+.bot_mid_items{
+    padding: 10px 10px 10px 10px;
+}
+.space{
+    width: 100%;
+    height: 60px;
+}
+.bot_h{
+    margin-left: 5%;
+}
+.bot_mid_items a{
+    color: black;
+}
+.bot_mid_items a:hover{
+    color: hsl(0, 1%, 22%);
+}
+footer{
+    background-color: black;
+}
+.back_to_top{
+    
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+.back_to_top a{
+    
+    color: #fff;
+}
+.bottom_list{
+    display: flex;
+    justify-content: space-around;
+}
+.bottom_list li{
+    list-style: none;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    font-size: 12px;
+}
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+   font-size: 20px;
+}
+.icons a{
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+}
+hr{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.bot_last{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 10px;
+
+}
+.bot_last a{
+    color: #fff;
+    margin-left: 5%;
+    padding: 10px 10px 10px 10px;
+}
+.bot_last a:hover{
+    cursor: pointer;
+    color: #828080;
+}
+.last p{
+    color: #fff;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: smaller;
+
+}
